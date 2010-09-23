@@ -15,16 +15,20 @@ Gem::Specification.new do |s|
   s.files += Dir.glob("lib/**/*")
   s.files += Dir.glob("bin/**/*")
   s.executables = %w( allegro )
+  s.add_dependency(%q<builder>, [">= 0"])
+  s.add_dependency(%q<rack>, [">= 0"])
+  s.add_dependency(%q<rdiscount>, [">= 0"])
+
   s.description       = "a modular CMS in pure ruby"
   s.post_install_message = <<-message
-  
-  
-      ...of this astounding life down here
-      and of the strange clowns in control of it
 
-                                            -L. F.
-  
-  
+
+  ...of this astounding life down here
+  and of the strange clowns in control of it
+
+  -L. F.
+
+
   message
 
 end
