@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name = "allegro"
   s.version = Allegro::VERSION
   s.date = Time.now.strftime('%Y-%m-%d')
-  s.summary = "a modular CMS in pure ruby"
+  s.summary = "a pure ruby blog system based on cloudhead's toto"
   s.homepage = "http://github.com/fyskij/allegro"
   s.email = "fiorito.g@gmail.com"
   s.authors = [ "Ermenegildo Fiorito" ]
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency(%q<rack>, [">= 0"])
   s.add_dependency(%q<rdiscount>, [">= 0"])
 
-  s.description       = "a modular CMS in pure ruby"
+  s.description       = "a pure ruby blog system based on cloudhead's toto"
   s.post_install_message = <<-message
 
 
