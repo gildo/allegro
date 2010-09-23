@@ -11,14 +11,20 @@ Gem::Specification.new do |s|
   s.email = "fiorito.g@gmail.com"
   s.authors = [ "Ermenegildo Fiorito" ]
   s.has_rdoc = false
-  s.files = %w( README.md LICENSE )
+  s.files = %w( README.md )
   s.files += Dir.glob("lib/**/*")
   s.files += Dir.glob("bin/**/*")
   s.executables = %w( allegro )
   s.description       = "a modular CMS in pure ruby"
   s.post_install_message = <<-message
-  ...of this astounding life down here
-  and of the strange clowns in control of it
+  
+  
+      ...of this astounding life down here
+      and of the strange clowns in control of it
+
+                                            -L. F.
+  
+  
   message
 
 end

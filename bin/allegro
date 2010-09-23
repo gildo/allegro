@@ -1,0 +1,13 @@
+#!/usr/bin/ruby -w
+
+$:.unshift File.join(File.dirname(__FILE__), *%w[.. lib])
+
+require 'allegro'
+require 'optparse'
+
+case ARGV.first
+when 'new', 'n'
+  # stub out the project
+  Allegro.stub(ARGV[1])
+end
+
