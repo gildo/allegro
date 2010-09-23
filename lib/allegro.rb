@@ -20,6 +20,8 @@ require 'allegro/context'
 require 'allegro/archives'
 require 'allegro/article'
 require 'allegro/server'
+require 'allegro/config'
+
 
 module Allegro
   Paths = {

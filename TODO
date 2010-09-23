@@ -1,0 +1,8 @@
+0.1:
+
+-split the configuration in a yaml file
+-support +n template systems with tilte
+-improve the 'new' generator to setup a config at the creation of blog
+  --find an elegant way to copy the blog template without have the template itself in the gem
+-add tags & categories system
+
